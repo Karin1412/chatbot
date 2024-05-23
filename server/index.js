@@ -9,6 +9,7 @@ app.use(cors());
 
 // Danh sách các từ khóa và câu trả lời về thú cưng
 const faq = [
+  { keywords: ["xin chào", "hello", "hi"], answer: "Xin chào bạn, mình là PetAI. Mình có thể giúp gì cho bạn?" },
   { keywords: ["chăm sóc chó", "nuôi chó"], answer: "Bạn nên cung cấp cho chú chó một chế độ ăn uống cân bằng, luyện tập thường xuyên, và thăm bác sĩ thú y định kỳ." },
   { keywords: ["tắm cho mèo", "tắm mèo"], answer: "Mèo không cần tắm thường xuyên như chó. Tuy nhiên, khi cần tắm, hãy sử dụng nước ấm và dầu gội chuyên dụng cho mèo." },
   { keywords: ["chó ăn sô cô la", "chó ăn socola", "sô cô la chó"], answer: "Không, sô cô la rất nguy hiểm cho chó và có thể gây ngộ độc." },
